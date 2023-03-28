@@ -1,0 +1,40 @@
+ {% extends "base.html" %}
+              
+ {% block content %}
+ 
+                <div class="col-8 " > 
+                    <div class="rightpart">
+                    <h1 >My blog</h1>
+                         {% for section in sections %}
+                        <div class="row first-project"> <!--first project-->  
+                            <div class="col">                             
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img class="img1" src="{{section.image.url}}"> 
+                                    </div>            
+                                    <div class="col-6">
+                                        <p>{{section.title}}</p>  
+                                        <p>{{section.created}} </p>
+                                       
+                                    </div>
+                                </div>
+                            </div>   
+                            <div class="row">
+                                <div class="col">
+                                    <h5>
+                                        {{section.text}}
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                           {%endfor%}
+                        </div> 
+                    </div>    
+                 </div>
+                </div>
+             </div>
+        </body>
+    </html>    
+
+{% endblock  %}      
+
