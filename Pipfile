@@ -5,6 +5,13 @@ name = "pypi"
 
 [packages]
 django = "*"
+django-bootstrap5 = "*"
+django-heroku = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+heroku = "*"
+django-debug-toolbar = "*"
+requests = "*"
 
 [dev-packages]
 
