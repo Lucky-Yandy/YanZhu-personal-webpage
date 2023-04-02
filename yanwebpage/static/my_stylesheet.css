@@ -99,7 +99,6 @@
   .aboutmargin{
     text-align:left;
     padding: 50px;
-    
     margin: 10px;
     margin-bottom: 200px;
     margin-top: 0;
@@ -117,5 +116,8 @@
    background: #87beb9;
 }
 
+.my-active-link { 
+   background: #87beb9;
+}
 
 
